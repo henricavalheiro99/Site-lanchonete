@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Lanchonete</title>
+    <!-- copia e cola os links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a8ec99a65b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="icon" href="assets/img/icons8-hambúrguer-100.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <div class="row " style="background-color: var(--amarelo);">
+            <div class="col-12 amarelo">
+                <div class="header-esquerda">
+                    <i class="fa-solid fa-burger" style="color: #000000;"></i>
+                    <p class="LogoTexto"><b>Estação do Lanche</b></p>
+                </div>
+                <nav class="navegacao-header">
+                    <a href="" class="a-header">Início</a>
+                    <a href="" class="a-header">Produtos</a>
+                    <a href="" class="a-header">Contato</a>
+                    <button class="btn-header"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i><a href="https://www.whatsapp.com/" target="_blank" class="faca-pedido">Faça seu Pedido</a></button>
+                </nav>
+            </div>    
+        </div>
+
+        <div class="row" id="banner" style="background-color: var(--dark-vermelho); height: 450px;">
+            <div class="col-12">
+                <p class="banner-title"><b>Uma delícia de sabor!</b></p>
+                <p class="banner-text"><b>Para os clientes mais exigentes.</b></p>
+                <button class="btn-banner"><a href="#Produtos" class="banner-vermais">Ver mais <b>Produtos</b></a></button>
+            </div>
+        </div>
+
+        <div class="row pt-5 pb-5" style="background-color: var(--amarelo);">
+            <div class="duas-imgs"></div>
+        </div>
+
+        <div class="row pt-5 pb-5 compras hamburguers" id="Produtos" style="background-color: var(--transparente);">
+            <div class="col-4 px-5">
+                <img src="assets/img/SmashBurguer.jpeg" alt="" class="imgs-compra">
+            </div>
+
+            <div class="col-5">
+                <p class="compras-title"><b>Smash burguer fenomenal</b></p>
+                <p class="compras-subtitle">Pão de gergilin, hamburguer 180g e muito queijo cheddar.</p>
+                <p class="compras-preco"><b>R$ 18,90</b></p>
+            </div>
+
+            <div class="col-3">
+                <button class="compras-btn"><a href="https://www.whatsapp.com/" target="_blank" class="a-compras">Comprar</a></button>
+            </div>
+        </div>
+
+        <div class="row pt-5 pb-5 compras hamburguers" style="background-color: var(--amarelo-desbotado);">
+            <div class="col-4 px-5">
+                <img src="assets/img/slide/0.jpg" alt="" class="imgs-compra">
+            </div>
+
+            <div class="col-5">
+                <p class="compras-title"><b>Extremo picante burguer</b></p>
+                <p class="compras-subtitle">Pão de gergilin, hamburguer 180g e muito queijo cheddar, salada e molho especial de pimenta.</p>
+                <p class="compras-preco"><b>R$ 24,90</b></p>
+            </div>
+
+            <div class="col-3">
+                <button class="compras-btn"><a href="https://www.whatsapp.com/" target="_blank" class="a-compras">Comprar</a></button>
+            </div>
+        </div>
+
+        <div class="row pt-5 pb-5 compras combo" style="background-color: var(--transparente);">
+            <div class="col-4 px-5">
+                <img src="assets/img/ComboPicles.jpeg" alt="" class="imgs-compra">
+            </div>
+
+            <div class="col-5">
+                <p class="compras-title"><b>Combo Picles</b></p>
+                <p class="compras-subtitle">Pão de gergilin, hamburguer 180g e salada com picles. Acompanha Batata de 250g e Refrigerante de 350ml</p>
+                <p class="compras-preco"><b>R$ 39,90</b></p>
+            </div>
+
+            <div class="col-3">
+                <button class="compras-btn"><a href="https://www.whatsapp.com/" target="_blank" class="a-compras">Comprar</a></button>
+            </div>
+        </div>
+
+        <div class="row pt-5 pb-5">
+            <div class="col-5 px-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.3236642503452!2d-50.3462503258445!3d-21.29822348236764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949615a87e2add85%3A0x825d6c10828df4e!2sCelinho%20Lanches!5e0!3m2!1spt-BR!2sbr!4v1695404579485!5m2!1spt-BR!2sbr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="col-7">
+                <p class="title-forms"><b>Fale Conosco!</b></p>
+                <form action="">
+                    <label for="" class="label">Informe seu nome:</label>
+                    <br>
+                    <input type="text" class="input" placeholder="Ex:Yasmin">
+                    <br>
+                    <label for="" class="label">Telefone para contato:</label>
+                    <br>
+                    <input type="text" class="input" placeholder="Ex:(18)99696-7878">
+                    <br>
+                    <label for="" class="label">Sua mensagem:</label>
+                    <br>
+                    <textarea name="" id="textarea" cols="30" rows="10" placeholder="Informe aqui sua mensagem"></textarea>
+                    <br>
+                    <button class="compras-btn"><a href=""class="a-compras">Enviar</a></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-3 bannerhumburguer">
+            <div class="col-5">
+                <p class="title-redes">SEGUE A GENTE</p>
+
+                <a href="https://www.instagram.com/" target="_blank" class="a-redes"><div class="icon-rede">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <p class="descricao-rede"><b>estacaolanche</b></p>
+                </div></a>
+                
+                <a href="https://www.youtube.com/" target="_blank" class="a-redes"><div class="icon-rede">
+                    <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                    <p class="descricao-rede"><b>estacaolanchetv</b></p>
+                </div></a>
+
+                <a href="https://www.tiktok.com/" target="_blank" class="a-redes">
+                    <div class="icon-rede">
+                        <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i>
+                        <p class="descricao-rede"><b>estacaolanche</b></p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-7">
+                <div class="row pt-3">
+                    <div class="col-6">
+                        <img src="assets/img/lanchoneteVegana.jpeg" alt="" class="imgs-cima">
+                    </div>
+
+                    <div class="col-6">
+                        <img src="assets/img/LocalChique.jpeg" alt="" class="imgs-cima">
+                    </div>
+                </div>
+
+                <div class="row pt-3 pb-3">
+                    <div class="col-4">
+                        <img src="assets/img/MesasPenultimo.jpeg" alt="" class="imgs-baixo">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="assets/img/RachandoBico.jpeg" alt="" class="imgs-baixo">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="assets/img/garcomPreto.jpeg" alt="" class="imgs-baixo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-3" style="background-color: var(--amarelo);">
+            <div class="col-6 footer-esquerda">
+                <i class="fa-solid fa-burger" style="color: #000000;"></i>
+                <p class="LogoTexto"><b>Estação do Lanche</b></p>
+            </div>
+
+            <div class="col-6 footer-direita">
+                <p class="footer-text">(18) 99123-1234 / (18) 3636-3636</p>
+                <p class="footer-text">Rua Lorem Ipsum Nº 123, Centro - Birigui / SP</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
